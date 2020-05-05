@@ -6,7 +6,7 @@ class Header extends Component{
         return(
             <div className="header">
                 <h1 className="title">Kat Walks Dogs
-                <img alt="pawprints" src="https://www.pinclipart.com/picdir/big/22-221932_pawprint-white-paw-print-transparent-clipart.png"></img>
+                <img alt="pawprints" src="https://lh3.googleusercontent.com/proxy/KFePP-zEtOnS9XeuuiouSkQ1g3nFlu3qgG_6XEQb2GbmO1xKHpgKzhvMTeqWf_hs8q4IX30KSl-JnZ0xOm1z2Us1QFjdMczD_8yrXb69y9JKyod5MKy6RPI2dAt7vsr2JIfbRrJzFme5xp0FReYJBvGU0fBpkaF3Rk0XAecvAMYGE7wpD7nPWjoeyEHJ"></img>
                 </h1>
                 <Navbar/>
             </div>

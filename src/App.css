@@ -51,9 +51,12 @@ table {
 
 
 @import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Hind+Madurai:wght@300&display=swap');
 
 .App {
   text-align: center;
+  padding: 2%;
 }
 
 /* desktops */
@@ -61,26 +64,25 @@ table {
 @media only screen and (min-device-width: 1100px) {
 
 	.header {
-	/* border-bottom: solid white 1rem; */
 	padding: 2rem;
-	/* background-color: blue; */
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	}
 
 	.header img {
-	height: 5%;
-	width: 5%;
+	height: 4%;
+	width: 4%;
 	}
 
 	.title {
 	font-family: 'Philosopher', sans-serif;
 	width: 50%;
 	font-size: 400%;
-	color: white;
+	color: black;
 	display: flex;
 	justify-content: center;
+	margin-right: 20%;
 	}
 
 	.navbar {
@@ -88,6 +90,7 @@ table {
 		width: 50%;
 		justify-content: space-evenly;
 		margin-top: 1.5%;
+		align-items: center;
 	}
 
 	.navbar h2 {
@@ -97,8 +100,51 @@ table {
 		font-size: 150%;
 	}
 
+	/* .container {
+		position: absolute;
+		background-color: gray;
+		height: 10rem;
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0.5%;
+		align-self: center;
+	} */
+
 	.home {
-		color: white;
+		font-family: 'Hind Madurai', sans-serif;
+		color: black;
+		background-color: white;
+		height: 40rem;
+		margin-left: auto;
+		margin-right: auto;
+		border: solid gray 0.4rem;
+	}
+
+	.profile {
+		height: 50%;
+		display: flex;
+		padding: 1%;
+		justify-content: center;
+	}
+
+	.photo {
+		width: 50%;
+		height: 120%;
+		/* background-color: palegreen;
+		background-image: url('https://images.unsplash.com/photo-1502673530728-f79b4cab31b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80');
+		background-size: 100%; */
+	}
+
+	.blurb {
+		background: rgb(211, 211, 211, 0.8);
+		width: 35%;
+		height: max-content;
+		position: absolute;
+		z-index: 3;
+		margin-top: 17.5%;
+		margin-left: 19%;
+		padding: 1%;
 	}
 
 }
@@ -106,12 +152,12 @@ table {
 /* ipads */
 @media only screen and (min-device-width: 600px) and (max-device-width: 1050px) {
 	.header {
-		border-bottom: solid white 1rem;
 		padding: 2rem;
-		background-color: blue;
 		display: flex;
 		justify-content: space-evenly;
 		align-items: center;
+		display: flex;
+		flex-direction: column;
 		}
 	
 		.header img {
@@ -122,7 +168,7 @@ table {
 		.title {
 		font-family: 'Philosopher', sans-serif;
 		font-size: 250%;
-		color: white;
+		color: black;
 		width: 50%;
 		display: flex;
 		justify-content: center;
@@ -141,6 +187,49 @@ table {
 			font-weight: bold;
 			font-size: 120%;
 		}
+
+		/* .container {
+			position: relative;
+			background-color: gray;
+			height: 10rem;
+			width: 95%;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 0.5%;
+			align-self: center;
+		} */
+	
+		.home {
+			color: black;
+			background-color: white;
+			height: max-content;
+			/* width: 100%; */
+			margin-left: auto;
+			margin-right: auto;
+			border: solid gray 0.3rem;
+			font-family: 'Hind Madurai', sans-serif;
+		}
+
+		.profile {
+			padding: 1%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
+		}
+	
+		.photo {
+			width: 50%;
+			height: auto;
+			border-radius: 2rem;
+		}
+	
+		.blurb {
+			/* background: rgb(211, 211, 211, 0.8); */
+			height: max-content;
+			font-size: 1rem;
+			margin-top: 1%;
+		}
 }
 
 
@@ -148,9 +237,7 @@ table {
 /* smartphones */
 @media only screen and (max-device-width: 500px) {
 	.header {
-		border-bottom: solid white 1rem;
 		padding: 2rem;
-		background-color: blue;
 		display: flex;
 		justify-content: space-evenly;
 		align-items: center;
@@ -165,7 +252,7 @@ table {
 		.title {
 		font-family: 'Philosopher', sans-serif;
 		font-size: 250%;
-		color: white;
+		color: black;
 		width: 100%;
 		display: flex;
 		justify-content: center;
@@ -183,5 +270,47 @@ table {
 			font-family: 'Philosopher', sans-serif;
 			font-weight: bold;
 			font-size: 90%;
+		}
+
+		/* .container {
+			position: relative;
+			background-color: gray;
+			height: 10rem;
+			width: 95%;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 0.5%;
+			align-self: center;
+		} */
+	
+		.home {
+			color: black;
+			background-color: white;
+			height: max-content;
+			margin-left: auto;
+			margin-right: auto;
+			border: solid gray 0.2rem;
+			font-family: 'Hind Madurai', sans-serif;
+		}
+
+		.profile {
+			padding: 1%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
+		}
+	
+		.photo {
+			width: 50%;
+			height: auto;
+			border-radius: 2rem;
+		}
+	
+		.blurb {
+			/* background: rgb(211, 211, 211, 0.8); */
+			height: max-content;
+			font-size: 0.85rem;
+			margin-top: 1%;
 		}
 }
