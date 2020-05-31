@@ -115,12 +115,12 @@ table {
 		height: 50%;
 		display: flex;
 		padding: 1%;
-		justify-content: center;
 	}
 
 	.photo {
-		width: 50%;
+		width: auto;
 		height: 120%;
+		margin-left: 8%;
 	}
 
 	.blurb {
@@ -130,7 +130,6 @@ table {
 		position: absolute;
 		z-index: 3;
 		margin-top: 17.5%;
-		margin-left: 19%;
 		padding: 1%;
 	}
 
