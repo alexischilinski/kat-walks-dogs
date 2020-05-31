@@ -205,7 +205,7 @@ table {
 		.blurb {
 			/* background: rgb(211, 211, 211, 0.8); */
 			height: max-content;
-			font-size: 1rem;
+			font-size: 2rem;
 			margin-top: 1%;
 		}
 }
