@@ -10,7 +10,7 @@ export const Home = () => {
                 <div className="blurb-div">
                     <div className="blurb intro">My name is Kat DiMascio. I am a graduate of Becker College with an Associate Degree in Animal Care and Management.</div>
                     <div className="blurb info">Kat Walks Dogs is a unique experience for your dog in that I can assist with training or just provide simple daily exercise!</div>
-                    <div className="blurb end">Lets get your dog out there and moving!</div>
+                    <div className="blurb end">Let's get your dog out there and moving!</div>
                 </div>
             </div>
         </div>
