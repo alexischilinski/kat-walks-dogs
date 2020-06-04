@@ -115,7 +115,9 @@ table {
 		height: 50%;
 		display: flex;
 		padding: 1%;
+		margin-left: 5%;
 		justify-content: center;
+		align-content: center;
 	}
 
 	.photo {
@@ -125,14 +127,34 @@ table {
 		/* margin-left: 8%; */
 	}
 
+	.blurb-div {
+		width: 30%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
 	.blurb {
-		background: rgb(211, 211, 211, 0.8);
-		width: 35%;
-		height: max-content;
-		position: absolute;
-		z-index: 3;
-		margin-top: 19%;
+		width: 60%;
+		background: rgb(211, 211, 211);
+		/* width: 30%; */
 		padding: 1%;
+	}
+
+	.intro {
+		height: 20%;
+		margin-top: 20%;
+	}
+
+	.info {
+		margin-left: 30%;
+		height: 20%;
+	}
+
+	.end {
+		align-content: center;
+		height: 10%;
 	}
 
 }
