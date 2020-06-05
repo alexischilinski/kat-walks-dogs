@@ -94,11 +94,14 @@ table {
 		align-items: center;
 	}
 
-	.navbar h2 {
+	.navbar button {
 		color: white;
 		font-family: 'Philosopher', sans-serif;
 		font-weight: bold;
 		font-size: 150%;
+		background-color: transparent;
+		border: none;
+		cursor: pointer;
 	}
 
 	.home {
@@ -230,7 +233,7 @@ table {
 			margin-top: 2%;
 		}
 	
-		.navbar h2 {
+		.navbar button {
 			color: white;
 			font-family: 'Philosopher', sans-serif;
 			font-weight: bold;
@@ -340,7 +343,7 @@ table {
 			margin-top: 2%;
 		}
 	
-		.navbar h2 {
+		.navbar button {
 			color: white;
 			font-family: 'Philosopher', sans-serif;
 			font-weight: bold;
