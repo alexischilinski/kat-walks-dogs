@@ -197,6 +197,15 @@ table {
 		font-size: 1.2rem;
 	}
 
+	.contact-info {
+		display: flex;
+		justify-content: center;
+	}
+
+	.contact-info p {
+		margin: 0.5%;
+	}
+
 }
 
 /* ipads */
