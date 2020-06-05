@@ -105,7 +105,7 @@ table {
 		font-family: 'Hind Madurai', sans-serif;
 		color: black;
 		background-color: white;
-		height: 40rem;
+		height: max-content;
 		margin-left: auto;
 		margin-right: auto;
 		border: solid gray 0.4rem;
@@ -121,8 +121,8 @@ table {
 	}
 
 	.photo {
-		width: auto;
-		height: 120%;
+		width: 30%;
+		height: 30%;
 		border: solid black;
 		/* margin-left: 8%; */
 	}
@@ -143,18 +143,55 @@ table {
 	}
 
 	.intro {
-		height: 20%;
-		margin-top: 20%;
+		height: 13%;
+		margin-top: 10%;
 	}
 
 	.info {
 		margin-left: 30%;
-		height: 20%;
+		height: 13%;
 	}
 
 	.end {
 		align-content: center;
-		height: 10%;
+		height: 7%;
+	}
+	
+	.contact-heading {
+		margin-top: 10%;
+		font-weight: bold;
+		font-size: 2rem;
+	}
+
+	.contact-form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.contact-form input {
+		width: 20%;
+		margin: 0.5%;
+		border-radius: 3rem;
+		text-indent: 1%;
+		height: 1.5rem;
+		font-size: 1.2rem;
+	}
+
+	.message-input {
+		width: 30%;
+		margin: 0.5%;
+		height: 10rem;
+		border-radius: 1.5rem;
+		text-indent: 3%;
+		font-size: 1.2rem;
+	}
+
+	.contact-form button {
+		margin: 0.5%;
+		border-radius: 3rem;
+		height: 1.8rem;
+		font-size: 1.2rem;
 	}
 
 }
@@ -230,6 +267,43 @@ table {
 			font-size: 2rem;
 			margin-top: 1%;
 		}
+
+		.contact-heading {
+			margin-top: 10%;
+			font-weight: bold;
+			font-size: 2rem;
+		}
+	
+		.contact-form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+	
+		.contact-form input {
+			width: 40%;
+			margin: 0.5%;
+			border-radius: 3rem;
+			text-indent: 1%;
+			height: 1.5rem;
+			font-size: 1.2rem;
+		}
+	
+		.message-input {
+			width: 60%;
+			margin: 0.5%;
+			height: 10rem;
+			border-radius: 1.5rem;
+			text-indent: 3%;
+			font-size: 1.2rem;
+		}
+	
+		.contact-form button {
+			margin: 0.5%;
+			border-radius: 3rem;
+			height: 1.8rem;
+			font-size: 1.2rem;
+		}
 }
 
 
@@ -272,17 +346,6 @@ table {
 			font-weight: bold;
 			font-size: 90%;
 		}
-
-		/* .container {
-			position: relative;
-			background-color: gray;
-			height: 10rem;
-			width: 95%;
-			margin-left: auto;
-			margin-right: auto;
-			padding: 0.5%;
-			align-self: center;
-		} */
 	
 		.home {
 			color: black;
@@ -313,5 +376,42 @@ table {
 			height: max-content;
 			font-size: 0.85rem;
 			margin-top: 1%;
+		}
+
+		.contact-heading {
+			margin-top: 10%;
+			font-weight: bold;
+			font-size: 2rem;
+		}
+	
+		.contact-form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+	
+		.contact-form input {
+			width: 50%;
+			margin: 0.5%;
+			border-radius: 3rem;
+			text-indent: 1%;
+			height: 1.5rem;
+			font-size: 1.2rem;
+		}
+	
+		.message-input {
+			width: 70%;
+			margin: 0.5%;
+			height: 10rem;
+			border-radius: 1.5rem;
+			text-indent: 3%;
+			font-size: 1.2rem;
+		}
+	
+		.contact-form button {
+			margin: 0.5%;
+			border-radius: 3rem;
+			height: 1.8rem;
+			font-size: 1.2rem;
 		}
 }
