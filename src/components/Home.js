@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import katPhoto from '../components/photos/kat.png'
+import Contact from './Contact'
 
 export const Home = () => {
     return (
@@ -13,6 +14,7 @@ export const Home = () => {
                     <div className="blurb end">Let's get your dog out there and moving!</div>
                 </div>
             </div>
+            <Contact/>
         </div>
     )
 }
