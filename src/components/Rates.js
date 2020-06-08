@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './Rates.css'
 
 export const Rates = () => {
     return (

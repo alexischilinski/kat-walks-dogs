@@ -119,7 +119,8 @@ table {
 @media only screen and (min-device-width: 600px) and (max-device-width: 1050px) {
 
 		.contact-heading {
-			margin-top: 10%;
+            font-family: 'Hind Madurai', sans-serif;
+            color: white;
 			font-weight: bold;
 			font-size: 2rem;
 		}
@@ -153,7 +154,13 @@ table {
 			border-radius: 3rem;
 			height: 1.8rem;
 			font-size: 1.2rem;
-		}
+        }
+        
+        .contact-info p {
+            margin: 0.5%;
+            font-family: 'Hind Madurai', sans-serif;
+            color: white;
+        }
 }
 
 
@@ -161,9 +168,10 @@ table {
 /* smartphones */
 @media only screen and (max-device-width: 500px) {
 		.contact-heading {
-			margin-top: 10%;
+            font-family: 'Hind Madurai', sans-serif;
 			font-weight: bold;
-			font-size: 2rem;
+            font-size: 2rem;
+            color: white;
 		}
 	
 		.contact-form {
@@ -195,5 +203,11 @@ table {
 			border-radius: 3rem;
 			height: 1.8rem;
 			font-size: 1.2rem;
-		}
+        }
+        
+        .contact-info p {
+            margin: 0.5%;
+            font-family: 'Hind Madurai', sans-serif;
+            color: white;
+        }
 }
