@@ -65,11 +65,11 @@ table {
 	.home {
 		font-family: 'Hind Madurai', sans-serif;
 		color: black;
-		background-color: white;
-		height: max-content;
+		/* background-color: white; */
+		/* height: max-content; */
 		margin-left: auto;
 		margin-right: auto;
-		border: solid gray 0.4rem;
+		/* border: solid gray 0.4rem; */
 	}
 
 	.profile {
@@ -98,14 +98,14 @@ table {
 
 	.blurb {
 		width: 60%;
-		background: rgb(211, 211, 211);
-		/* width: 30%; */
-		padding: 1%;
+		background: white;
+        padding: 1%;
+        border-radius: 1rem;
 	}
 
 	.intro {
 		height: 13%;
-		margin-top: 10%;
+		margin-top: 4%;
 	}
 
 	.info {

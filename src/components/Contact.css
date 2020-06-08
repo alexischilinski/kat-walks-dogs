@@ -65,7 +65,8 @@ table {
 
 	
 	.contact-heading {
-		margin-top: 10%;
+        font-family: 'Hind Madurai', sans-serif;
+        color: white;
 		font-weight: bold;
 		font-size: 2rem;
 	}
@@ -107,7 +108,9 @@ table {
 	}
 
 	.contact-info p {
-		margin: 0.5%;
+        margin: 0.5%;
+        font-family: 'Hind Madurai', sans-serif;
+        color: white;
 	}
 
 }

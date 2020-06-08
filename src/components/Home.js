@@ -15,7 +15,7 @@ export const Home = () => {
                     <div className="blurb end">Let's get your dog out there and moving!</div>
                 </div>
             </div>
-            <Contact/>
+            {/* <Contact/> */}
         </div>
     )
 }
