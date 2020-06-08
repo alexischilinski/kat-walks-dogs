@@ -57,7 +57,7 @@ table {
 @media only screen and (min-device-width: 1100px) {
     .rate-title {
         font-family: 'Hind Madurai', sans-serif;
-        color: white;
+        color: black;
 		font-weight: bold;
 		font-size: 2rem;
     }
@@ -67,7 +67,7 @@ table {
 @media only screen and (min-device-width: 600px) and (max-device-width: 1050px) {
     .rate-title {
         font-family: 'Hind Madurai', sans-serif;
-        color: white;
+        color: black;
 		font-weight: bold;
 		font-size: 2rem;
     }
@@ -77,8 +77,8 @@ table {
 @media only screen and (max-device-width: 500px) {
     .rate-title {
         font-family: 'Hind Madurai', sans-serif;
-        color: white;
+        color: black;
 		font-weight: bold;
-		font-size: 2rem;
+		font-size: 1.3rem;
     }
 }
