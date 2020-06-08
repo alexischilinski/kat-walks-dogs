@@ -67,7 +67,14 @@ table {
 		color: black;
 		margin-left: auto;
 		margin-right: auto;
-	}
+    }
+    
+    .about-title {
+        font-family: 'Hind Madurai', sans-serif;
+            color: white;
+			font-weight: bold;
+			font-size: 2rem;
+    }
 
 	.profile {
 		height: 50%;
@@ -107,7 +114,14 @@ table {
 			margin-left: auto;
 			margin-right: auto;
 			font-family: 'Hind Madurai', sans-serif;
-		}
+        }
+        
+        .about-title {
+            font-family: 'Hind Madurai', sans-serif;
+                color: white;
+                font-weight: bold;
+                font-size: 2rem;
+        }
 
 		.profile {
 			padding: 1%;
@@ -141,7 +155,14 @@ table {
 			margin-left: auto;
 			margin-right: auto;
 			font-family: 'Hind Madurai', sans-serif;
-		}
+        }
+        
+        .about-title {
+            font-family: 'Hind Madurai', sans-serif;
+                color: white;
+                font-weight: bold;
+                font-size: 2rem;
+        }
 
 		.profile {
 			padding: 1%;
