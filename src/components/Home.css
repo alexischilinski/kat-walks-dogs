@@ -1,0 +1,189 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end reset */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Hind+Madurai:wght@300&display=swap');
+
+.App {
+  text-align: center;
+  padding: 2%;
+}
+
+/* desktops */
+
+@media only screen and (min-device-width: 1100px) {
+	.home {
+		font-family: 'Hind Madurai', sans-serif;
+		color: black;
+		background-color: white;
+		height: max-content;
+		margin-left: auto;
+		margin-right: auto;
+		border: solid gray 0.4rem;
+	}
+
+	.profile {
+		height: 50%;
+		display: flex;
+		padding: 1%;
+		margin-left: 5%;
+		justify-content: center;
+		align-content: center;
+	}
+
+	.photo {
+		width: 30%;
+		height: 30%;
+		border: solid black;
+		/* margin-left: 8%; */
+	}
+
+	.blurb-div {
+		width: 30%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	.blurb {
+		width: 60%;
+		background: rgb(211, 211, 211);
+		/* width: 30%; */
+		padding: 1%;
+	}
+
+	.intro {
+		height: 13%;
+		margin-top: 10%;
+	}
+
+	.info {
+		margin-left: 30%;
+		height: 13%;
+	}
+
+	.end {
+		align-content: center;
+		height: 7%;
+	}
+}
+
+/* ipads */
+@media only screen and (min-device-width: 600px) and (max-device-width: 1050px) {
+		.home {
+			color: black;
+			background-color: white;
+			height: max-content;
+			margin-left: auto;
+			margin-right: auto;
+			border: solid gray 0.3rem;
+			font-family: 'Hind Madurai', sans-serif;
+		}
+
+		.profile {
+			padding: 1%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
+		}
+	
+		.photo {
+			width: 50%;
+			height: auto;
+			border-radius: 2rem;
+		}
+	
+		.blurb {
+			height: max-content;
+			font-size: 2rem;
+			margin-top: 1%;
+		}
+}
+
+
+
+/* smartphones */
+@media only screen and (max-device-width: 500px) {
+	
+		.home {
+			color: black;
+			background-color: white;
+			height: max-content;
+			margin-left: auto;
+			margin-right: auto;
+			border: solid gray 0.2rem;
+			font-family: 'Hind Madurai', sans-serif;
+		}
+
+		.profile {
+			padding: 1%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
+		}
+	
+		.photo {
+			width: 50%;
+			height: auto;
+			border-radius: 2rem;
+		}
+	
+		.blurb {
+			height: max-content;
+			font-size: 0.85rem;
+			margin-top: 1%;
+		}
+}

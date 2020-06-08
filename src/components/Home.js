@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import katPhoto from '../components/photos/kat.png'
 import Contact from './Contact'
+import './Home.css'
 
 export const Home = () => {
     return (

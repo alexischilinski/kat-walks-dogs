@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import Contact from './Contact'
 import { Link, animateScroll as scroll } from 'react-scroll'
+import './Navbar.css'
 
 class Navbar extends Component{
 
