@@ -60,7 +60,17 @@ table {
         color: black;
 		font-weight: bold;
 		font-size: 2rem;
-    }
+	}
+
+	.rate-div {
+		margin-top: 2%;
+	}
+	
+	.text {
+		font-family: 'Hind Madurai', sans-serif;
+		margin: 1%;
+		font-size: 1.3rem;
+	}
 }
 
 /* ipads */
@@ -70,7 +80,17 @@ table {
         color: black;
 		font-weight: bold;
 		font-size: 2rem;
-    }
+	}
+	
+	.rate-div {
+		margin-top: 2%;
+	}
+	
+	.text {
+		font-family: 'Hind Madurai', sans-serif;
+		margin: 2%;
+		font-size: 1.3rem;
+	}
 }
 
 /* smartphones */
@@ -80,5 +100,15 @@ table {
         color: black;
 		font-weight: bold;
 		font-size: 1.3rem;
-    }
+	}
+	
+	.rate-div {
+		margin-top: 2%;
+	}
+	
+	.text {
+		font-family: 'Hind Madurai', sans-serif;
+		margin: 3%;
+		font-size: 1.3rem;
+	}
 }
