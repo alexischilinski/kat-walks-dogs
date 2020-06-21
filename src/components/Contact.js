@@ -29,7 +29,7 @@ class Contact extends Component{
                 </form>
                 <div className="contact-info">
                     <p>Phone: (339)235-0099</p>
-                    <p>Email: katdogscompany@gmail</p>
+                    <p>Email: katdogscompany@gmail.com</p>
                 </div>
             </>
         )
