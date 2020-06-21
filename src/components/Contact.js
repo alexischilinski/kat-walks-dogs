@@ -28,7 +28,7 @@ class Contact extends Component{
                     </button>
                 </form>
                 <div className="contact-info">
-                    <p>Phone: (339)235-0099</p>
+                    <p>Phone: (339)2350099</p>
                     <p>Email: katdogscompany@gmail.com</p>
                 </div>
             </>
