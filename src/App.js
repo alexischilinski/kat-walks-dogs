@@ -14,6 +14,7 @@ function App() {
       <Route exact path="/"><Home/></Route>
       <Route exact path='/rates'><Rates/></Route>
       <Route exact path='/contact'><Contact/></Route>
+      <Route exact path='/reviews'>Review</Route>
     </div>
   );
 }
