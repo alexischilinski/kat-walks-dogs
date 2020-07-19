@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Switch, Route, useHistory} from 'react-router-d
 import {Home} from './components/Home'
 import {Rates} from './components/Rates'
 import Contact from './components/Contact'
+import Review from './components/Reviews'
 
 function App() {
   return (
