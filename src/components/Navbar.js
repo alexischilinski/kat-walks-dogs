@@ -15,6 +15,7 @@ class Navbar extends Component{
             <div className="navbar">
                 <Link to="/"><button className="navbutton">Home</button></Link>
                 <Link to="/rates"><button className="navbutton">Rates</button></Link>
+                <Link to="/reviews"><button className="navbutton">Reviews</button></Link>
                 <Link to="/contact"><button className="navbutton">Contact</button></Link>
             </div>
         )
