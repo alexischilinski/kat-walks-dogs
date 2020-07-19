@@ -55,14 +55,14 @@ table {
 
 /* desktops */
 @media only screen and (min-device-width: 1100px) {
-    .rate-title {
+    .review-title {
         font-family: 'Hind Madurai', sans-serif;
         color: black;
 		font-weight: bold;
 		font-size: 2rem;
 	}
 
-	.rate-div {
+	.review-div {
 		margin-top: 2%;
 	}
 	
@@ -70,19 +70,50 @@ table {
 		font-family: 'Hind Madurai', sans-serif;
 		margin: 1%;
 		font-size: 1.3rem;
-	}
+    }
+    
+    .review-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review-form input {
+        width: 40%;
+        height: 2rem;
+        margin: 1%;
+        font-family: 'Hind Madurai', sans-serif;
+        text-indent: 1%;
+        font-size: 1.2rem;
+    }
+
+    .review-form textarea {
+        width: 40%;
+        height: 15rem;
+        margin: 1%;
+        font-family: 'Hind Madurai', sans-serif;
+        text-indent: 1%;
+        font-size: 1.2rem;
+    }
+
+    .submit-button {
+        width: 7%;
+        height: 2rem;
+        font-family: 'Hind Madurai', sans-serif;
+        font-size: 1.2rem;
+    }
 }
 
 /* ipads */
 @media only screen and (min-device-width: 600px) and (max-device-width: 1050px) {
-    .rate-title {
+    .review-title {
         font-family: 'Hind Madurai', sans-serif;
         color: black;
 		font-weight: bold;
 		font-size: 2rem;
 	}
 	
-	.rate-div {
+	.review-div {
 		margin-top: 2%;
 	}
 	
@@ -90,19 +121,50 @@ table {
 		font-family: 'Hind Madurai', sans-serif;
 		margin: 2%;
 		font-size: 1.3rem;
-	}
+    }
+    
+    .review-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review-form input {
+        width: 70%;
+        height: 2rem;
+        margin: 1%;
+        font-family: 'Hind Madurai', sans-serif;
+        text-indent: 1%;
+        font-size: 1.2rem;
+    }
+
+    .review-form textarea {
+        width: 70%;
+        height: 15rem;
+        margin: 1%;
+        font-family: 'Hind Madurai', sans-serif;
+        text-indent: 1%;
+        font-size: 1.2rem;
+    }
+
+    .submit-button {
+        width: max-content;
+        height: 2rem;
+        font-family: 'Hind Madurai', sans-serif;
+        font-size: 1.2rem;
+    }
 }
 
 /* smartphones */
 @media only screen and (max-device-width: 500px) {
-    .rate-title {
+    .review-title {
         font-family: 'Hind Madurai', sans-serif;
         color: black;
 		font-weight: bold;
 		font-size: 1.3rem;
 	}
 	
-	.rate-div {
+	.review-div {
 		margin-top: 2%;
 	}
 	
@@ -110,5 +172,32 @@ table {
 		font-family: 'Hind Madurai', sans-serif;
 		margin: 3%;
 		font-size: 1.3rem;
-	}
+    }
+
+    .review-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review-form input {
+        width: 90%;
+        height: 2rem;
+        margin: 1%;
+        font-family: 'Hind Madurai', sans-serif;
+        text-indent: 1%;
+    }
+
+    .review-form textarea {
+        width: 90%;
+        height: 10rem;
+        margin: 1%;
+        font-family: 'Hind Madurai', sans-serif;
+        text-indent: 1%;
+    }
+
+    .submit-button {
+        width: max-content;
+        font-family: 'Hind Madurai', sans-serif;
+    }
 }
