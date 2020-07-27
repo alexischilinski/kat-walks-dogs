@@ -13,11 +13,16 @@ class App extends Component {
     reviews: []
   }
 
-  addReview = () => {
-
+  addReview = (review) => {
+    fetch('https://katwalksdogs.herokuapp.com/reviews/', {
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(review)
+    })
   }
 
-  
+
   render(){
     return (
       <div className="App">
