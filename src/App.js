@@ -20,6 +20,12 @@ class App extends Component {
       },
       body: JSON.stringify(review)
     })
+    .then(response => response.json())
+    .then(rev => {
+      this.setState({
+        reviews: [...this.state.reviews, rev]
+      })
+    })
   }
 
 
@@ -30,7 +36,7 @@ class App extends Component {
         <Route exact path="/"><Home/></Route>
         <Route exact path='/rates'><Rates/></Route>
         <Route exact path='/contact'><Contact/></Route>
-        <Route exact path='/reviews'><Review/></Route>
+        <Route exact path='/reviews'><Review addReview={this.addReview}/></Route>
       </div>
     );
   }
