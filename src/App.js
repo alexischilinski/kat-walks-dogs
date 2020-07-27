@@ -13,6 +13,10 @@ class App extends Component {
     reviews: []
   }
 
+  addReview = () => {
+
+  }
+
   
   render(){
     return (
