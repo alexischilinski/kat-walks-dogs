@@ -101,6 +101,7 @@ table {
         height: 2rem;
         font-family: 'Hind Madurai', sans-serif;
         font-size: 1.2rem;
+        margin: 1%;
     }
 }
 
@@ -152,6 +153,7 @@ table {
         height: 2rem;
         font-family: 'Hind Madurai', sans-serif;
         font-size: 1.2rem;
+        margin: 1%;
     }
 }
 
@@ -199,5 +201,6 @@ table {
     .submit-button {
         width: max-content;
         font-family: 'Hind Madurai', sans-serif;
+        margin: 1%;
     }
 }
