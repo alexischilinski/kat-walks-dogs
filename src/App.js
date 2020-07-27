@@ -8,6 +8,12 @@ import Contact from './components/Contact'
 import Review from './components/Reviews'
 
 class App extends Component {
+
+  state = {
+    reviews: []
+  }
+
+  
   render(){
     return (
       <div className="App">
