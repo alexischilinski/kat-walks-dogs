@@ -15,6 +15,7 @@ class App extends Component {
 
   addReview = (review) => {
     fetch('https://katwalksdogs.herokuapp.com/reviews/', {
+      method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
