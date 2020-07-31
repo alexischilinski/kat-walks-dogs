@@ -119,7 +119,7 @@ table {
     }
 
     .submit-button {
-        width: 7%;
+        width: max-content;
         height: 2rem;
         font-family: 'Hind Madurai', sans-serif;
         font-size: 1.2rem;
