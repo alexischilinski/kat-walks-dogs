@@ -13,6 +13,12 @@ class App extends Component {
     reviews: []
   }
 
+  componentWillMount(){
+    fetch('https://katwalksdogs.herokuapp.com/reviews/')
+      .then(response => response.json())
+      .then(reviews => this.setState({reviews}))
+  }
+
   addReview = (review) => {
     fetch('https://katwalksdogs.herokuapp.com/reviews/', {
       method: 'POST',
@@ -37,7 +43,7 @@ class App extends Component {
         <Route exact path="/"><Home/></Route>
         <Route exact path='/rates'><Rates/></Route>
         <Route exact path='/contact'><Contact/></Route>
-        <Route exact path='/reviews'><Review addReview={this.addReview}/></Route>
+        <Route exact path='/reviews'><Review addReview={this.addReview} reviews={this.state.reviews}/></Route>
       </div>
     );
   }

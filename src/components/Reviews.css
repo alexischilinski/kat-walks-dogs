@@ -61,10 +61,31 @@ table {
 		font-weight: bold;
 		font-size: 2rem;
 	}
+    
+    .all-reviews {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 
-	.review-div {
-		margin-top: 2%;
-	}
+    .one-review {
+        margin: 3%;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .reviewer {
+        font-family: 'Hind Madurai', sans-serif;
+        font-size: 130%;
+        font-weight: bold;
+        margin-bottom: 2%;
+    }
+
+    .review {
+        font-family: 'Hind Madurai', sans-serif;
+        font-size: 120%;
+    }
 	
 	.text {
 		font-family: 'Hind Madurai', sans-serif;
@@ -78,7 +99,7 @@ table {
         align-items: center;
     }
 
-    .review-form input {
+    .review-input {
         width: 40%;
         height: 2rem;
         margin: 1%;
@@ -111,17 +132,38 @@ table {
         font-family: 'Hind Madurai', sans-serif;
         color: black;
 		font-weight: bold;
-		font-size: 2rem;
+		font-size: 230%;
 	}
-	
-	.review-div {
-		margin-top: 2%;
-	}
+    
+    .all-reviews {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .one-review {
+        margin: 5%;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .reviewer {
+        font-family: 'Hind Madurai', sans-serif;
+        font-size: 140%;
+        font-weight: bold;
+        margin-bottom: 2%;
+    }
+
+    .review {
+        font-family: 'Hind Madurai', sans-serif;
+        font-size: 130%;
+    }
 	
 	.text {
 		font-family: 'Hind Madurai', sans-serif;
 		margin: 2%;
-		font-size: 1.3rem;
+		font-size: 160%;
     }
     
     .review-form {
@@ -130,7 +172,7 @@ table {
         align-items: center;
     }
 
-    .review-form input {
+    .review-input {
         width: 70%;
         height: 2rem;
         margin: 1%;
@@ -163,17 +205,37 @@ table {
         font-family: 'Hind Madurai', sans-serif;
         color: black;
 		font-weight: bold;
-		font-size: 1.3rem;
+		font-size: 170%;
 	}
-	
-	.review-div {
-		margin-top: 2%;
-	}
+    
+    .all-reviews {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .one-review {
+        margin: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .reviewer {
+        font-family: 'Hind Madurai', sans-serif;
+        font-size: 110%;
+        font-weight: bold;
+        margin-bottom: 2%;
+    }
+
+    .review {
+        font-family: 'Hind Madurai', sans-serif;
+        font-size: 120%;
+    }
 	
 	.text {
 		font-family: 'Hind Madurai', sans-serif;
 		margin: 3%;
-		font-size: 1.3rem;
+		font-size: 160%;
     }
 
     .review-form {
@@ -182,7 +244,7 @@ table {
         align-items: center;
     }
 
-    .review-form input {
+    .review-input {
         width: 90%;
         height: 2rem;
         margin: 1%;

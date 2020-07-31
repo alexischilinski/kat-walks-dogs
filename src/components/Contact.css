@@ -124,13 +124,14 @@ table {
             font-family: 'Hind Madurai', sans-serif;
             color: black;
 			font-weight: bold;
-			font-size: 2rem;
+			font-size: 230%;
 		}
 	
 		.contact-form {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
+			margin-top: 3%;
 		}
 	
 		.contact-form input {
@@ -149,6 +150,7 @@ table {
 			border-radius: 1.5rem;
 			text-indent: 3%;
 			font-size: 1.2rem;
+			font-family: 'Hind Madurai', sans-serif;
 		}
 	
 		.contact-form button {
@@ -173,7 +175,7 @@ table {
 		.contact-heading {
             font-family: 'Hind Madurai', sans-serif;
 			font-weight: bold;
-            font-size: 1.3rem;
+            font-size: 170%;
             color: black;
 		}
 	
@@ -181,6 +183,7 @@ table {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
+			margin-top: 3%;
 		}
 	
 		.contact-form input {
@@ -199,6 +202,7 @@ table {
 			border-radius: 1.5rem;
 			text-indent: 3%;
 			font-size: 1.2rem;
+			font-family: 'Hind Madurai', sans-serif;
 		}
 	
 		.contact-form button {
