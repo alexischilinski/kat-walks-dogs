@@ -66,10 +66,19 @@ table {
 		margin-top: 2%;
 	}
 	
-	.text {
+	.rate-text {
 		font-family: 'Hind Madurai', sans-serif;
-		margin: 1%;
 		font-size: 1.3rem;
+		margin: 1%;
+	}
+
+	.list {
+		font-family: 'Hind Madurai', sans-serif;
+		font-size: 1.1rem;
+	}
+
+	a {
+		text-decoration: none;
 	}
 }
 
@@ -86,10 +95,19 @@ table {
 		margin-top: 2%;
 	}
 	
-	.text {
+	.rate-text {
 		font-family: 'Hind Madurai', sans-serif;
 		margin: 2%;
 		font-size: 1.3rem;
+	}
+
+	.list {
+		font-family: 'Hind Madurai', sans-serif;
+		font-size: 1.1rem;
+	}
+
+	a {
+		text-decoration: none;
 	}
 }
 
@@ -106,9 +124,16 @@ table {
 		margin-top: 2%;
 	}
 	
-	.text {
+	.rate-text {
 		font-family: 'Hind Madurai', sans-serif;
 		margin: 3%;
-		font-size: 1.3rem;
+	}
+
+	.list {
+		font-family: 'Hind Madurai', sans-serif;
+	}
+
+	a {
+		text-decoration: none;
 	}
 }
