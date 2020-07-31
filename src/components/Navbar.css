@@ -86,10 +86,10 @@ table {
 		}
 	
 		.navbar button {
-			color: white;
+			color: black;
 			font-family: 'Philosopher', sans-serif;
-			font-weight: bold;
 			font-size: 120%;
+			border-radius: 0%;
 		}
 }
 
@@ -105,9 +105,9 @@ table {
 		}
 	
 		.navbar button {
-			color: white;
+			color: black;
 			font-family: 'Philosopher', sans-serif;
-			font-weight: bold;
+			border-radius: 0%;
 			font-size: 90%;
 		}
 }
