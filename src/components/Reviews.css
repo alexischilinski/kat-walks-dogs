@@ -70,7 +70,7 @@ table {
 
     .one-review {
         margin: 3%;
-        width: 30%;
+        width: 43%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -253,6 +253,7 @@ table {
         margin: 1%;
         font-family: 'Hind Madurai', sans-serif;
         text-indent: 1%;
+        font-size: 1.2rem;
     }
 
     .review-form textarea {
@@ -261,11 +262,13 @@ table {
         margin: 1%;
         font-family: 'Hind Madurai', sans-serif;
         text-indent: 1%;
+        font-size: 1.2rem;
     }
 
     .submit-button {
         width: max-content;
         font-family: 'Hind Madurai', sans-serif;
         margin: 1%;
+        font-size: 1.2rem;
     }
 }

@@ -20,9 +20,9 @@ class Contact extends Component{
             <>
                 <h1 className="contact-heading">Contact</h1>
                 <form className="contact-form" action="https://send.pageclip.co/tNQQLb0gjhOrYmbWLjULD4NqovJlq1zd" method="post">
-                    <input onChange={this.handleChange} placeholder="name" type="text" name="name" value={this.state.name} />
-                    <input onChange={this.handleChange} placeholder="email" type="email" name="email" value={this.state.email} />
-                    <textarea className="message-input" placeholder="message" onChange={this.handleChange} name="message" value={this.state.message}></textarea>
+                    <input onChange={this.handleChange} placeholder="Name" type="text" name="name" value={this.state.name} />
+                    <input onChange={this.handleChange} placeholder="Email" type="email" name="email" value={this.state.email} />
+                    <textarea className="message-input" placeholder="Message" onChange={this.handleChange} name="message" value={this.state.message}></textarea>
                     <button type="submit" class="pageclip-form__submit">
                         <span>Send</span>
                     </button>
